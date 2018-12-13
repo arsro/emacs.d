@@ -22,6 +22,9 @@
 ;; (require 'rubocop)
 ;; (add-hook 'ruby-mode-hook #'rubocop-mode)
 
+;; slim-mode
+(require 'slim-mode)
+
 ;; rubocop
 (require 'rubocop)
 (add-hook 'ruby-mode-hook 'rubocop-mode)
